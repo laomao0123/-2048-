@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+#app {
+  width: 500px;
+  margin: auto;
+}
+
+#title {
+  height: 200px;
+  background-color: pink;
+}
+
+#main {
+  background-color: saddlebrown;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#main ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (120px)[4];
+      grid-template-columns: repeat(4, 120px);
+  -ms-grid-rows: (120px)[4];
+      grid-template-rows: repeat(4, 120px);
+}
+
+#main ul li {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: brown;
+  border-radius: 20px;
+  margin: 10px;
+  color: #fff;
+  font-size: 30px;
+}
+
+#main ul .zero {
+  color: transparent;
+}
+
+#main ul .one {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .two {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .three {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .four {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .five {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .six {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .seven {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .eight {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .nine {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .ten {
+  color: turquoise;
+  background-color: violet;
+}
+
+#main ul .eleven {
+  color: turquoise;
+  background-color: violet;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+}
+#app{
+    width: 500px;
+    margin: auto;
+}
+
+#title{
+    height: 200px;
+    background-color: pink;
+}
+#main{
+    background-color:saddlebrown ;
+    padding: 10px;
+    border-radius: 30px;
+    ul{
+        display: grid;
+        // flex-wrap: wrap;
+        grid-template-columns: repeat(4,120px);
+        grid-template-rows: repeat(4,120px);
+        li{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background-color: brown;
+            border-radius: 20px;
+            margin: 10px;
+            color: #fff;
+            font-size: 30px;
+        }
+        .zero{
+            color: transparent;
+        }
+        .one{
+            color: turquoise;
+            background-color:violet;
+        }
+        .two{
+            color: turquoise;
+            background-color:violet;
+        }
+        .three{
+            color: turquoise;
+            background-color:violet;
+        }
+        .four{
+            color: turquoise;
+            background-color:violet;
+        }
+        .five{
+            color: turquoise;
+            background-color:violet;
+        }
+        .six{
+            color: turquoise;
+            background-color:violet;
+        }
+        .seven{
+            color: turquoise;
+            background-color:violet;
+        }
+        .eight{
+            color: turquoise;
+            background-color:violet;
+        }
+        .nine{
+            color: turquoise;
+            background-color:violet;
+        }
+        .ten{
+            color: turquoise;
+            background-color:violet;
+        }
+        .eleven{
+            color: turquoise;
+            background-color:violet;
+        }
+    }
+}
+
+
+
+
+
+
